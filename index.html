@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left-side">
+            <form name="f1" class="reg">
+                <h2>Login</h2>
+                <input type="text" name="login" placeholder="Enter login" class="input" required>
+                <h2>Password</h2>
+                <input type="password" name="password" placeholder="Password" class="input" required>
+                <h2>Email address</h2>
+                <input type="text" name="email"  placeholder="Enter email" class="input" required>
+                <input data-func="add" type="button" name="btn"  value="Add user" class="submit">
+                <input data-func="Edit" type="button" name="edit"  value="Edit user" class="submit editUser" style="display: none;">
+            </form>
+        </div>
+        <div class="right-side">
+            
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>Login</td>
+                        <td>Password</td>
+                        <td>Email</td>
+                        <td>Edit</td>
+                        <td>Delete</td>
+                    </tr>
+                </thead>
+                <hr>
+                <tbody>
+
+                </tbody>
+            </table>
+            <hr>
+        </div>
+    </div>
+
+
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
